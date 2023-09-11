@@ -26,5 +26,11 @@ namespace projeto_final_bloco_01.Model
         {
             Console.WriteLine("Estou nadando...");
         }
+
+        public override void Visualizar()
+        {
+            base.Visualizar();
+            Console.Write($"Documento específico hydrochoerus hydrochaeris: {this.deh} \n");
+        }
     }
 }
