@@ -84,9 +84,6 @@ namespace projeto_final_bloco_01
                         Console.Write("Digite a idade: ");
                         idade = Convert.ToInt32(Console.ReadLine());
 
-                        Console.Write("Digite o documento específico hydrochoerus hydrochaeris: ");
-                        deh = Convert.ToInt32(Console.ReadLine());
-
                         animais.Criar(new Capivara(animais.GerarNumero(), nome, genero, idade, animais.GeraRandom()));
 
                         KeyPress();
