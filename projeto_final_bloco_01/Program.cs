@@ -147,12 +147,14 @@ namespace projeto_final_bloco_01
                         break;
                     case 6:
                         Console.WriteLine("Saindo... ");
+                        c1.Correr();
                         System.Environment.Exit(0);
 
                         KeyPress();
                         break;
                     default:
                         Console.WriteLine("Opção inválida");
+                        c1.Nadar();
 
                         KeyPress();
                         break;
